@@ -1,0 +1,60 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(178, 171, 171);
+    /* justify-content: space-between; */
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    /* background-color: antiquewhite; */
+}
+/* .contain{
+    /* background-color: gainsboro; */
+/* }  */
+.logo img{
+    width:80px;
+    height: 80px;
+    /* background-color: azure; */
+}
+li{
+    display: flex;
+    margin: 15px;
+}
+
+.btn [type=text]{
+    padding: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.btn{
+    margin-top: 30px; 
+    /* justify-content: center; */
+    /* background-color: antiquewhite; */
+} 
+/* input[type=text]{
+} */
+/* .btn input[type=text]{
+	width: 130px;   
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+
+}
+
+.btn input[type=text]:focus{
+	width: 100%;
+} */
+
