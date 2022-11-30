@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    /* background-image: url(/images/bg.png); */
+    background-size: 110%;
+}
+
+.header {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    background-color: rgb(224, 11, 167);
+    justify-content: space-between;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 20%;
+}
+
+ul {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    border-bottom: 2px solid blue;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.btn [type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.btn button {
+    /* border-radius: 10px ; */
+    float: left;
+    width: 8%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+}
+.login {
+    margin-top: 12px;
+}
+.fa-user-circle-o {
+    font-size: px;
+}
+/* -------------border----------- */
+.border{
+    display: flex;
+    flex-direction: column;
+    /* background-color:gray; */
+    
+}
+
+.my_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.my_btn button:hover{
+    background-color:#2196F3 ;
+    border: none;
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    border-radius: 10px;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #f1f1f1;
+    width: 60%
+}
+.lists{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px;
+    /* align-items: center; */
+    justify-content: center;
+}
+.lists input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+.int input{
+    margin-left: 51px;
+}
+.btn_save{
+    /* justify-content: flex-end; */
+    display: flex;
+}
+.btn_save button{
+    padding: 5px;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    /* margin-left: 45%; */
+    
+    background-color: #2196F3;
+}
+.btn_save button:hover{
+    cursor: pointer;
+}
+.view{
+    display: flex;
+    justify-content: end;
+    margin: 0px 5px 5px 0px;
+}
+#btn_view{
+    font-weight: bold;
+    cursor: pointer;
+    width: 20%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+
+}
+#btn_view:hover{
+    background-color: #2196F3;
+    border: none;
+}
+

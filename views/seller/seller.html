@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/seller.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="/images/online-logo.png" width="100px">
+        </div>
+        <div class="btn">
+            <input type="text" placeholder="search...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <ul>
+            <li><a href="../../customer.html">Home</a> </li>
+            <li><a href="#">product</a> </li>
+            <li>Contact</li>
+        </ul>
+        <div class="login">
+            <img src="/images/login.png" width="50px">
+        </div>
+    </div>
+    <div class="border">
+        <div class="my_btn">
+            <h2>Create My product</h2>
+        </div>
+        <form id="add_product">
+            <div class="lists int">
+                <label  for="fname">Name</label>
+                <input id="product_name" type="text" placeholder="Enter...">
+            </div>
+            <div class="lists">
+                <label for="fname">Description</label>
+                <input id="product_descrition" type="text" placeholder="Enter...">
+            </div>
+            <div class="lists int">
+                <!-- <table>Price</table> -->
+                <label for="fname">Price</label>
+                <input id="product_price" type="text" placeholder="Enter...">
+            </div>
+            <div class="lists">
+                <!-- <table>Price</table> -->
+                <label for="fname">Currency</label>
+                <input id="product_currency" type="text" placeholder="Enter...">
+            </div>
+            <div class="lists int">
+                <!-- <table>image</table> -->
+                <label for="fname">Image</label>
+                <input id="product_image" type="file" placeholder="Enter...">
+            </div>
+            <div class="lists btn_save">
+                <button id="btn_save" type="submit">Save</button>
+            </div>
+            
+            <div class="view">
+                <button id="btn_view"><a href="../edite/edite.html">View My Product</a></button>
+            </div>
+        </form>
+        <h2 id="my_product"></h2>
+    </div>
+    <script src="js/seller.js">
+
+    </script>
+</body>
+
+</html>
