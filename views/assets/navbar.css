@@ -4,26 +4,22 @@ body {
     height: 100vh;
     width: 100%;
     font-family: sans-serif;
-    /* background-image: url(/images/bg.png); */
-    background-size: 110%;
 }
-
 .header {
     width: 100%;
     flex: 1;
     display: flex;
-    background-color: rgb(224, 11, 167);
+    background-color:#e424e7;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     justify-content: space-between;
 }
-
- a {
+.header a {
     text-decoration: none;
+    color: white;
 }
-
 .logo {
     width: 20%;
 }
-
 ul {
     width: 20%;
     align-items: center;
@@ -31,20 +27,18 @@ ul {
     list-style: none;
     gap: 20px;
 }
-
 li {
     cursor: pointer;
+    color: white;
+    font-weight: bold;
 }
-
 li:hover {
     border-bottom: 2px solid blue;
 }
-
 .btn {
     margin-top: 20px;
     width: 60%;
 }
-
 .btn [type=text] {
     padding: 10px;
     font-size: 17px;
@@ -52,11 +46,9 @@ li:hover {
     float: left;
     width: 70%;
     background: #f1f1f1;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 1px 0px 20px;
 }
-
 .btn button {
-    /* border-radius: 10px ; */
     float: left;
     width: 8%;
     padding: 10px;
@@ -73,10 +65,4 @@ li:hover {
 }
 .fa-user-circle-o {
     font-size: px;
-}
-
-/* -------------border---------- */
-table,th,td{
-    border-collapse: collapse;
-    border: 1px solid;
 }
