@@ -14,6 +14,7 @@
 
 <body>
     <div class="header">
+
         <div class="logo">
             <img src="../assets/images/online-logo.png" width="100px">
         </div>
@@ -55,13 +56,14 @@
                 </div>
                 <div class="lists int">
                     <label for="fname">Image</label>
-                    <input type='url' id="product_image" placeholder="Enter URL">
+                    <input type="url" id="product_image" placeholder="Enter URL">
                 </div>
                 <div class="lists btn_save">
                     <button id="btn_save" type="submit">Save</button>
                 </div>
 
             </form>
+
         </div>
         <div class="container">
 
@@ -77,6 +79,32 @@
         </div>
     </div>
     <h2 id="my_product"></h2>
+
+    <div class="form_edit">
+        <!-- <dialog open> -->
+            <form method="dialog">
+                <h2>Updat Product</h2>
+                <table>name</table>
+                <input type="text" id="form_name"><br>
+                <table>description</table>
+                <input type="text" id="form_description"><br>
+                <table>price</table>
+                <input type="text" id="form_price"><br>
+                <table>currency</table>
+                <input type="text" id="form_currency"><br>
+                <table>image</table>
+                <input type="url" id="form_image">
+                <div class="btn_update">
+                    <button id="updat">updat</button>
+                    <button id="dialog_close">cancel</button>
+                </div>
+
+            </form>
+        <!-- </dialog> -->
+    </div>
+
+
+    <!-- <img src="" alt=""> -->
     <script src="js/seller.js"></script>
 </body>
 

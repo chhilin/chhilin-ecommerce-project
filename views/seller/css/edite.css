@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+form{
+    margin: auto;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e424e7; 
+}
+h2{
+    text-align: center;
+}
+input[type=text], input[type=url]{
+    align-items: center;
+    padding: 10px;
+    border: none;
+}
+.btn_update{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+button{
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+}
+ .btn_update button:hover{
+    background-color: #2196F3 ;
+    cursor: pointer;
+
+}
