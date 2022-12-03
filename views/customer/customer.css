@@ -1,13 +1,4 @@
 
-.container, .border{
-    width: 90%;
-    margin: 0 auto;
-}
-.border{
-    margin: auto;
-    width: 90%;
-
-}
 .main {
     margin-top: 20px;
     display: flex;
@@ -36,12 +27,23 @@
 .card img {
     width: 243px;
     height: 230px;
-
 }
 .card button:hover {
     cursor: pointer;
     background: rgb(224, 11, 167);
     border: none;
 }
+span{
+    font-weight: bold;
+}
+.fa-star{
+    margin: 5px;
+    color: #eae130;
+}
+.fa-star:hover{
+    color: fuchsia;
+}
+
+
 
 

@@ -9,7 +9,6 @@ body{
     flex: 1;
 }
 .contain{
-    /* background: #000; */
     flex: 1;
 
 }
@@ -17,49 +16,43 @@ body{
     text-align: center;
     margin-top: 50px;
 }
-.my_btn button:hover{
-    background-color:#2196F3 ;
-    border: none;
-}
-.border form{
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;     */
-    border-radius: 10px;
+#add_product{
     display: flex;
     flex-direction: column;
-    /* margin: auto; */
-    background-color: #f9ebfa;
-    /* width: 50% */
+    width: 60%;
+    background-color: fuchsia;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
 }
-.lists{
+.lists {
     display: flex;
-    /* flex-direction: column; */
-    margin: 10px;
-    /* align-items: center; */
-    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
 }
-.lists input{
-    width: 40%;
+label{
+    font-weight: bold;
+}
+input{
     padding: 10px;
+    border: none;
     border-radius: 5px;
-    margin-left: 20px;
-    
 }
-.int input{
-    margin-left: 51px;
-}
-.btn_save{
-    /* justify-content: flex-end; */
+.button_save{
     display: flex;
+    justify-content: end;
+    margin-top: 20px;
 }
-.btn_save button{
-    padding: 5px;
-    width: 15%;
-    border-radius: 5px;
-    
+.button_save button{
+    padding: 10px;
+    width: 30%;
+    border-radius: 20px;
+    border: grey;
+}
+.button_save button:hover{
+    border:gainsboro;
     background-color: #2196F3;
-}
-.btn_save button:hover{
-    cursor: pointer;
+
 }
 
 /* ------------- create table by js---------- */
@@ -79,15 +72,10 @@ body{
 .my_btn a:hover{
     color:#2196F3 ;
 }
-
 tr th{
     background-color: #2196F3;
-    
 }
-
 th,td{
-   
-    /* width: 1%; */
     padding: 5px;
     /* margin: auto; */
     background-color: aliceblue;
@@ -105,45 +93,5 @@ table, th,td{
 }
 .edite{
     width: 30px;
-    cursor: pointer;
-}
-/* ----------edit form---------- */
-.form_edit{
-    display: flex;
-   
-    /* margin-top: -200px; */
-}
-.form_edit form{
-    margin: auto;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #e424e7; 
-}
-
-.form_edit h2{
-    text-align: center;
-}
-.form_edit input[type=text], input[type=url]{
-    align-items: center;
-    padding: 10px;
-    /* border: none; */
-}
-.btn_update{
-    display: flex;
-    margin-top: 20px;
-    justify-content: flex-end;
-    gap: 10px;
-}
-.form_edit button{
-    width: 30%;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid gainsboro;
-}
- .btn_update button:hover{
-    background-color: #2196F3 ;
     cursor: pointer;
 }

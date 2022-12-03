@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: fuchsia;
+}
+
+#text_bold {
+    font-weight: bold;
+    font-size: large;
+}
+
+footer p {
+    color: white;
+    cursor: pointer;
+}
+
+.icon_follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_follow i {
+    cursor: pointer;
+    padding: 5px;
+    font-size: xx-large;
+    /* color:cornflowerblue; */
+}
+
+.fa-youtube-play {
+    color: red;
+}
