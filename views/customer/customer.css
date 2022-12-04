@@ -1,13 +1,20 @@
+.text-title {
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
 
 .main {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    height: 100%;
     gap: 10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .card {
     width: 20%;
     margin-top: 5px;
@@ -17,33 +24,34 @@
     border: none;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.25) 54px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
+
 .card:hover {
     cursor: pointer;
     transform: translate(-10px);
     box-shadow: rgba(0, 0, 0, 0.25) 54px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .card img {
     width: 243px;
     height: 230px;
 }
+
 .card button:hover {
     cursor: pointer;
     background: rgb(224, 11, 167);
     border: none;
 }
-span{
+
+span {
     font-weight: bold;
 }
-.fa-star{
+
+.fa-star {
     margin: 5px;
     color: #eae130;
 }
-.fa-star:hover{
+
+.fa-star:hover {
     color: fuchsia;
 }
-
-
-
-

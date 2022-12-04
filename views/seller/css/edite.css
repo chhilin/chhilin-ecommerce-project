@@ -8,7 +8,6 @@ body{
 form{
     margin: auto;
     width: 50%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -38,5 +37,4 @@ button{
  .btn_update button:hover{
     background-color: #2196F3 ;
     cursor: pointer;
-
 }

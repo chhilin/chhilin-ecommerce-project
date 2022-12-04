@@ -1,22 +1,25 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100px;
 }
-.border{
+
+.border {
     display: flex;
     flex: 1;
 }
-.contain{
-    flex: 1;
 
+.contain {
+    flex: 1;
 }
-.my_btn{
+
+.my_btn {
     text-align: center;
     margin-top: 50px;
 }
-#add_product{
+
+#add_product {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -25,73 +28,89 @@ body{
     padding: 20px;
     margin: auto;
 }
+
 .lists {
     display: flex;
     flex-direction: column;
     margin: 5px;
 }
-label{
+
+label {
     font-weight: bold;
 }
-input{
+
+input {
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
-.button_save{
+
+.button_save {
     display: flex;
     justify-content: end;
     margin-top: 20px;
 }
-.button_save button{
+
+.button_save button {
     padding: 10px;
     width: 30%;
     border-radius: 20px;
     border: grey;
 }
-.button_save button:hover{
-    border:gainsboro;
-    background-color: #2196F3;
 
+.button_save button:hover {
+    border: gainsboro;
+    background-color: #2196F3;
 }
 
 /* ------------- create table by js---------- */
 
-.container{
+.container {
     flex: 1;
 }
-.my_table{
+
+.my_table {
     text-align: center;
     /* margin: auto; */
-  
+
 }
-.my_btn a{
+
+.my_btn a {
     color: black;
     cursor: pointer;
 }
-.my_btn a:hover{
-    color:#2196F3 ;
+
+.my_btn a:hover {
+    color: #2196F3;
 }
-tr th{
+
+tr th {
     background-color: #2196F3;
 }
-th,td{
+
+th,
+td {
     padding: 5px;
     /* margin: auto; */
     background-color: aliceblue;
     align-items: center;
 }
-table, th,td{
+
+table,
+th,
+td {
     margin: auto;
     border: 1px solid black;
     border-collapse: collapse;
-    flex-direction: row; 
+    flex-direction: row;
 }
-.my_image{
+
+.my_image {
     width: 25px;
     cursor: pointer;
 }
-.edite{
+
+.edite {
     width: 30px;
     cursor: pointer;
 }

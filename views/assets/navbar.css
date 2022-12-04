@@ -5,21 +5,25 @@ body {
     width: 100%;
     font-family: sans-serif;
 }
+
 .header {
     width: 100%;
     flex: 1;
     display: flex;
-    background-color:#e424e7;
+    background-color: #e424e7;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     justify-content: space-between;
 }
+
 .header a {
     text-decoration: none;
     color: white;
 }
+
 .logo {
     width: 20%;
 }
+
 ul {
     width: 20%;
     align-items: center;
@@ -27,18 +31,22 @@ ul {
     list-style: none;
     gap: 20px;
 }
+
 li {
     cursor: pointer;
     color: white;
     font-weight: bold;
 }
+
 li:hover {
     border-bottom: 2px solid blue;
 }
+
 .btn {
     margin-top: 20px;
     width: 60%;
 }
+
 .btn [type=text] {
     padding: 10px;
     font-size: 17px;
@@ -48,6 +56,7 @@ li:hover {
     background: #f1f1f1;
     border-radius: 20px 1px 0px 20px;
 }
+
 .btn button {
     float: left;
     width: 8%;
@@ -60,9 +69,11 @@ li:hover {
     cursor: pointer;
     border-radius: 0px 20px 20px 0px;
 }
+
 .login {
     margin-top: 12px;
 }
+
 .fa-user-circle-o {
     font-size: px;
 }
