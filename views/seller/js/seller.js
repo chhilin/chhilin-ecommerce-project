@@ -29,7 +29,6 @@ function createNewRecord(index, name, description, price, currency, img) {
     deletProduct.addEventListener("click", (e) => {
         let index = e.target.parentElement.parentElement.dataset.index;
         productList.splice(index, 1);
-
         addProductToLocalStorage("product-name", JSON.stringify(productList));
         displayProduct();
     })
@@ -42,7 +41,7 @@ function createNewRecord(index, name, description, price, currency, img) {
 
     editeProduct.addEventListener("click", (e) => {
         let index = e.target.parentElement.parentElement.dataset.index
-        document.querySelector("#product_name").value = name
+        document.querySelector("#product_name").value = name;
         document.querySelector("#product_descrition").value = description;
         document.querySelector("#product_price").value = price;
         document.querySelector("#product_currency").value = currency;
@@ -117,7 +116,7 @@ const product_image = document.querySelector("#product_image")
 const product_price = document.querySelector("#product_price")
 
 let productList = JSON.parse(localStorage.getItem('product-name')) ?? [];
-console.log(productList)
+
 button_save.addEventListener("click", (e) => {
     e.preventDefault();
     if (product_name.value == "" || product_descrition.value == "" || product_currency.value == "" || product_image.value == "" || product_price.value == "") {

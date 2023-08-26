@@ -71,7 +71,7 @@ function btnSearch() {
     }
 }
 let search = document.querySelector("#search");
-search.addEventListener("keyup", btnSearch)
+search.addEventListener("keyup", btnSearch);
 
 function displayProduct() {
     let products = JSON.parse(localStorage.getItem("product-name")) ?? [];
